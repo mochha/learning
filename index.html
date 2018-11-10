@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript</title>
+	<link rel="stylesheet" href="style.css" />
+	<style type="text/css">
+		@media only screen and (max-width: 568px){
+			.container-box{overflow-x: scroll;}
+		}
+	</style>
+</head>
+<body id="body">
+<div class="container-box">
+	<div class="window-size">
+		<p id="size"></p>
+	</div>
+	<div class="wrapper" id="wr">
+		<form class="form" action="">
+			<div class="img">
+				<img src="amikom.png" alt="UNIVERSITAS AMIKOM YOGYAKARTA" />
+				<p>Silahkan Login dengan NPM dan Password AMIKOM anda</p>
+			</div>
+			<div class="input">
+				<div class="input-control">
+					<img src="user.png"/>
+					<input type="text" name="username" placeholder="xx.xx.xxxx" />
+				</div>
+				<div class="input-control">
+					<img src="key.png"/>
+					<input type="text" name="password" placeholder="xxxxxxx" />
+				</div>
+				<div class="capta">
+					<label class="container">Saya bukan robot
+  						<input type="checkbox">
+  						<span class="checkmark"></span>
+					</label>
+					<div class="ch">
+						<img src="recap.svg" alt="reCAPTCHA" />
+					</div>
+				</div>
+				<div style="clear:both;"></div>
+			</div>
+			<div class="button"><button type="submit"><img src="right.png"></button></div>
+		</form>
+	</div>
+	<div class="btn">
+		<button>AMIKOM GOOGLE ACCOUNT</button>
+	</div>
+</div>
+
+<script src="script.min.js"></script>
+</body>
+</html>
